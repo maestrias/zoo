@@ -33,11 +33,11 @@ External dependencies
       | \-admin (zooapp.admin)
       \-db 
       | \-migrations (zooapp.migrations.0001_initial)
-      | \-models (zooapp.migrations.0001_initial,zooapp.models)
+      | \-models (zooapp.models,zooapp.migrations.0001_initial)
       \-shortcuts (zooapp.views)
       \-test (zooapp.tests)
     zooapp 
-      \-models (zooapp.admin,zooapp.tests)
+      \-models (zooapp.tests,zooapp.admin)
 
 
 
