@@ -52,7 +52,7 @@ JENKINS_TASKSx = (
     'django_jenkins.tasks.run_csslint',
     'django_jenkins.tasks.run_sloccount'
 )
-JENKINS_TASKSxx = (
+JENKINS_TASKS = (
     'django_jenkins.tasks.run_pep8',
     'django_jenkins.tasks.run_pylint',
 )
